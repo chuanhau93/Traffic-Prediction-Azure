@@ -34,8 +34,10 @@ Nov 2015 to Jun 2017.
   that a straight-line model can't capture.
 - See `model_traffic.py` and `traffic_model.pkl`
 
-### Phase 3: Deployment (planned)
-- Deploy the trained model on Azure
+### Phase 3: API Wrapper (done)
+- Wrapped the trained model in a Flask API with a `/predict` endpoint
+- Example: `/predict?hour=8&day=1&weekend=0&junction=1` returns a predicted vehicle count
+- See `app.py`
 
 ## Files
 - `traffic.csv` - raw dataset
