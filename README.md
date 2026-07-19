@@ -39,6 +39,11 @@ Nov 2015 to Jun 2017.
 - Example: `/predict?hour=8&day=1&weekend=0&junction=1` returns a predicted vehicle count
 - See `app.py`
 
+### Phase 4: Deployment (done)
+- Deployed the Flask API on Azure App Service (East Asia region)
+- Live endpoint: `https://chuanhau-traffic-predict.azurewebsites.net/predict?hour=8&day=1&weekend=0&junction=1`
+- Example response: `{"predicted_vehicles": 37.0}`
+- 
 ## Files
 - `traffic.csv` - raw dataset
 - `eda_traffic.py` - data loading, feature engineering, and EDA
