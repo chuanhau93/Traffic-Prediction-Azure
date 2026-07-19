@@ -24,7 +24,7 @@ Nov 2015 to Jun 2017.
   suggesting different road types.
 - See `eda_traffic.py` and `eda_chart.png`
 
-### Phase 2: Modeling (in progress)
+### Phase 2: Modeling (done)
 - Coming next: predicting vehicle count using time-based features
 
 ### Phase 3: Deployment (planned)
