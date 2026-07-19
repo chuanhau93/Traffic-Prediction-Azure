@@ -25,7 +25,14 @@ Nov 2015 to Jun 2017.
 - See `eda_traffic.py` and `eda_chart.png`
 
 ### Phase 2: Modeling (done)
-- Coming next: predicting vehicle count using time-based features
+- Trained and compared two models to predict vehicle count from time-based features:
+  - Linear Regression: MAE 9.04 vehicles
+  - Random Forest: MAE 7.69 vehicles (selected model)
+  - Baseline (predict average): MAE 15.13 vehicles
+- Random Forest improved ~49% over baseline, and outperformed linear regression - 
+  suggesting traffic patterns have non-linear structure (e.g. sharp rush-hour changes) 
+  that a straight-line model can't capture.
+- See `model_traffic.py` and `traffic_model.pkl`
 
 ### Phase 3: Deployment (planned)
 - Deploy the trained model on Azure
